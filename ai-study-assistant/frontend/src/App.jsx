@@ -14,7 +14,7 @@ function App() {
     setQuizState('taking')
     setAnswers(null)
   }
-
+  
   const handleQuizComplete = (userAnswers) => {
     setAnswers(userAnswers)
     setQuizState('result')
