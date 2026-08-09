@@ -1,5 +1,4 @@
 import mongoose from 'mongoose';
-
 const quizSchema = new mongoose.Schema({
   topic: { type: String, required: true },
   difficulty: { type: String, required: true },
