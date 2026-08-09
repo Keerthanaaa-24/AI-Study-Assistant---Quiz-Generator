@@ -1,6 +1,5 @@
 import Quiz from '../models/Quiz.js';
 
-// Local question bank
 const questionBank = {
   "Java": {
     "Easy": [
