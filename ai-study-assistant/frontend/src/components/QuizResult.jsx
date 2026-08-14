@@ -7,7 +7,6 @@ const QuizResult = ({ quizData, answers, onReset }) => {
       correctCount++;
     }
   });
-
   const total = questions.length;
   const percentage = Math.round((correctCount / total) * 100);
 
