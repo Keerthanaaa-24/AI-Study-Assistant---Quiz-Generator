@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import axios from 'axios';
-
 const QuizGenerator = ({ onQuizGenerated }) => {
   const [topic, setTopic] = useState('');
   const [difficulty, setDifficulty] = useState('Easy');
