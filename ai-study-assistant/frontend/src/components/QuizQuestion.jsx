@@ -1,7 +1,6 @@
 const QuizQuestion = ({ quizData, onComplete }) => {
   const { topic, difficulty, questions } = quizData;
   const [answers, setAnswers] = useState({});
-
   const handleSelect = (qIndex, option) => {
     setAnswers({
       ...answers,
